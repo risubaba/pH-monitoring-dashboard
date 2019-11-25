@@ -127,8 +127,8 @@ CELERY_TIMEZONE = 'Asia/Makassar'
 CELERY_BEAT_SCHEDULE = {
     'task-one': {
         'task': 'mainapp.tasks.import_values',
-        'schedule': timedelta(seconds=300)
-    }
+        'schedule': timedelta(seconds=600)
+    }   
 }
 
 OneM2M_IP = "onem2m.iiit.ac.in"
