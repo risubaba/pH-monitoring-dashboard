@@ -127,7 +127,7 @@ CELERY_TIMEZONE = 'Asia/Makassar'
 CELERY_BEAT_SCHEDULE = {
     'task-one': {
         'task': 'mainapp.tasks.import_values',
-        'schedule': timedelta(seconds=600)
+        'schedule': timedelta(seconds=300)
     }
 }
 
